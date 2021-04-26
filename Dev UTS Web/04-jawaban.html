@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+border: 1px solid black;
+}
+th, td {
+padding: 5px;
+}
+.biodata {
+background-color: grey;
+color : white;
+}
+</style>
+</head>
+    <body>
+        <table style="width:100%">
+            <tr>
+            <th rowspan="7"><img src="https://1.bp.blogspot.com/-adPwkANrQu0/XWXmz-EQuqI/AAAAAAAAAiA/mgDMq0jgdd8K-UBpt5H7SRLmdifYkbXCgCLcBGAs/s1600/38.AMIKOMY.png" alt="Trulli" width="100px"></th>
+            <th colspan="3" class="biodata">ISI BIODATA</th>
+            </tr>
+            <tr>
+            <td>Nama</td>
+            <td style="width:1%">:</td>
+            <td><input type="text" name="nama" size="30"></td>
+            </tr>
+            <tr>
+            <td>NIM</td>
+            <td>:</td>
+            <td><input type="text" name="nim" size="30"></td>
+            </tr>
+            <tr>
+            <td>Gender</td>
+            <td>:</td>
+            <td>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Laki-Laki</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Perempuan</label>
+            </td>
+            </tr>
+            <tr>
+            <td>Kelas</td>
+            <td>:</td>
+            <td>
+            <select name="cars" id="cars">
+            <option value="si 01">SI 01</option>
+            <option value="SI 02">SI 02</option>
+            <option value="SI 03">SI 03</option>
+            <option value="SI 04">SI 04</option>
+            <option value="SI 05">SI 05</option>
+            <option value="SI 06">SI 06</option>
+            </select>
+            </td>
+            </tr>
+            <tr>
+            <td>Riwayat Penyakit</td>
+            <td>:</td>
+            <td>
+            <input type="checkbox" id="riwayat_penyakit1" name="riwayat_penyakit1"
+            value="Asma">
+            <label for="riwayat_penyakit1"> Asma </label><br>
+            <input type="checkbox" id="riwayat_penyakit2" name="riwayat_penyakit2" value="flu">
+            <label for="riwayat_penyakit2"> Flu </label><br>
+            <input type="checkbox" id="riwayat_penyakit3" name="riwayat_penyakit3" value="Covid">
+            <label for="riwayat_penyakit3"> Covid </label><br>
+            <input type="checkbox" id="riwayat_penyakit4" name="riwayat_penyakit4"
+            value="Anemia">
+            <label for="riwayat_penyakit4"> Anemia </label><br>
+            </td>
+            </tr>
+            <tr>
+            <td colspan="2">
+            <input type="submit" name="SUBMIT" value="SUBMIT">
+            <input type="reset" name="RESET" value="RESET">
+            </td>
+            </tr>
+        </table>
+    </body>
+</html>
